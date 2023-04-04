@@ -235,7 +235,7 @@ def main():
     device = f'cuda:{args.device}' if args.device > -1 else 'cpu'
     device = torch.device(device)
 
-    dataset = DglLinkPropPredDataset(name=args.dataset, root='/path/to/dataset/')
+    dataset = DglLinkPropPredDataset(name=args.dataset, root='./dataset/')
     graph = dataset[0]
 
     if hasattr(graph, 'x'):

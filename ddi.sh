@@ -1,4 +1,6 @@
+# device: cpu: -1, gpu: 0,1,2,3 
 python -u main.py \
+    --device 0 \
     --dataset ogbl-ddi \
     --model agdn \
     --eval-steps 1 \

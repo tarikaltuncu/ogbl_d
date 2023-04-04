@@ -1,6 +1,8 @@
 # ogbl_d
 
 ## Requirements
+`conda env create -f environment.yml`
+
 ```
 Python==3.7
 Pytorch==1.8.1+cu101
